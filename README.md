@@ -12,13 +12,8 @@ This project will run on **NodeJs** using **MongoDB** as database. I had tried t
 
 ## Advertise for Job/Work Contract
 
-I am open for a good job or work contract. You can contact me directly on my email ([maitraysuthar@gmail.com](mailto:maitraysuthar@gmail.com "maitraysuthar@gmail.com")) or you can download my CV from my personal [website](https://maitraysuthar.github.io/portfolio/).
+I am open for a good job or work contract. You can contact me directly on my email ([developer.zaidbashir@gmail.com](mailto:developer.zaidbashir@gmail.com "developer.zaidbashir@gmail.com")) or you can view my LinkedIn Profile [website](https://www.linkedin.com/in/zaid-bashir-714956156/).
 
-## Buy me a Coffee
-
-If you consider my project as helpful stuff, You can appreciate me or my hard work and time spent to create this helpful structure with buying me a coffee.
-
-<a href="https://www.buymeacoffee.com/36GgOoQ2f" target="_blank"><img src="https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
 
 ## Features
 
@@ -32,24 +27,20 @@ If you consider my project as helpful stuff, You can appreciate me or my hard wo
 - Validations added.
 - Included API collection for Postman.
 - Light-weight project.
-- Test cases with [Mocha](https://mochajs.org/) and [Chai](https://www.chaijs.com/).
-- Code coverage with [Istanbuljs (nyc)](https://istanbul.js.org/).
-- Included CI (Continuous Integration) with [Travis CI](https://travis-ci.org).
-- Linting with [Eslint](https://eslint.org/).
 
 ## Software Requirements
 
-- Node.js **8+**
-- MongoDB **3.6+** (Recommended **4+**)
+- Node.js 
+- MongoDB 
 
 ## How to install
 
 ### Using Git (recommended)
 
-1.  Clone the project from github. Change "myproject" to your project name.
+1.  Clone the project from github.
 
 ```bash
-git clone https://github.com/maitraysuthar/rest-api-nodejs-mongodb.git ./myproject
+git clone https://github.com/zaid-bashir/hospital_backend
 ```
 
 ### Using manual download ZIP
@@ -60,7 +51,7 @@ git clone https://github.com/maitraysuthar/rest-api-nodejs-mongodb.git ./myproje
 ### Install npm dependencies after installing (Git or manual download)
 
 ```bash
-cd myproject
+cd <ProjectName>
 npm install
 ```
 
@@ -77,36 +68,7 @@ npm install
 ## Project structure
 
 ```sh
-.
-├── app.js
-├── package.json
-├── bin
-│   └── www
-├── controllers
-│   ├── AuthController.js
-│   └── BookController.js
-├── models
-│   ├── BookModel.js
-│   └── UserModel.js
-├── routes
-│   ├── api.js
-│   ├── auth.js
-│   └── book.js
-├── middlewares
-│   ├── jwt.js
-├── helpers
-│   ├── apiResponse.js
-│   ├── constants.js
-│   ├── mailer.js
-│   └── utility.js
-├── test
-│   ├── testConfig.js
-│   ├── auth.js
-│   └── book.js
-└── public
-    ├── index.html
-    └── stylesheets
-        └── style.css
+
 ```
 
 ## How to run
