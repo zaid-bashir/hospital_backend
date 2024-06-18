@@ -8,6 +8,7 @@ import dbConnection from './database/dbConnection.js';
 import messageRouter from './router/messageRouter.js';
 import {errorMiddleware} from './middlewares/ErrorMiddleware.js'
 import userRouter from "./router/userRouter.js";
+import appointmentRouter from './router/appointmentRouter.js';
 
 //Getting Express App Instance
 const app = express();
@@ -48,6 +49,7 @@ app.use(
 //Registering Routers For Modules
 app.use("/api/v1/message", messageRouter);
 app.use("/api/v1/user", userRouter);
+app.use("/api/v1/appointment", appointmentRouter);
 
 //Connecting MongoDB Database
 dbConnection();
