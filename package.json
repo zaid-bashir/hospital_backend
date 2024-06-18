@@ -2,7 +2,7 @@
   "name": "com.zaidbashir.hospitalbackend",
   "version": "1.0.0",
   "description": "Backend For Hospital Management System",
-  "main": "app.js",
+  "main": "server.js",
   "type": "module",
   "scripts": {
     "start": "npm run dev",
